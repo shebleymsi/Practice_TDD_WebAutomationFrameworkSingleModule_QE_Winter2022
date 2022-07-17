@@ -1,5 +1,4 @@
 package com.amazon.testPage.homePageTest;
 
-public class HomePageTest {
-
+public class HomePageTest1 {
 }
