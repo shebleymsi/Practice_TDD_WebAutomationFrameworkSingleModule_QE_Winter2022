@@ -1,4 +1,5 @@
 com\amazon\testPage\registrationPageTest\RegistrationPageTest.class
 com\amazon\testPage\homePageTest\HomePageTest.class
-com\amazon\testPage\homePageTest\HomePageTest1.class
 com\amazon\testPage\homePageTest\HomePageTest2.class
+com\amazon\testPage\homePageTest\HomePageNewTest.class
+com\amazon\testPage\homePageTest\HomePageTest1.class

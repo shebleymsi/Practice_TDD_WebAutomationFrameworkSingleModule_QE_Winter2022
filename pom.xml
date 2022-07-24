@@ -180,13 +180,18 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M7</version>
                 <configuration>
+
                     <!--                TestNG HTTP Error Handling purpose-->
+
                     <systemPropertyVariables>
                         <testng.dtd.http>true</testng.dtd.http>
                     </systemPropertyVariables>
+
                     <!--                Test Fail will be Ignored-->
+
                     <testFailureIgnore>true</testFailureIgnore>
                     <!--                Test Runner Files-->
+
                     <suiteXmlFiles>
                         <suiteXmlFile>target/test-classes/AmazonTestRunner.xml</suiteXmlFile>
 

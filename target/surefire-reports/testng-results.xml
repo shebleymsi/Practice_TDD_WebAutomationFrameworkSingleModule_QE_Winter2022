@@ -2,10 +2,10 @@
 <testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-17T02:08:38 EDT" name="All Test Suite" finished-at="2022-07-17T02:08:38 EDT" duration-ms="16">
+  <suite started-at="2022-07-23T22:37:31 EDT" name="Amazon Test Suite" finished-at="2022-07-23T22:37:31 EDT" duration-ms="15">
     <groups>
     </groups>
-    <test started-at="2022-07-17T02:08:38 EDT" name="C:/Users/MD SHAHADUL ISLAM/IdeaProjects/Practice_TDD_WebAutomationFrameworkSingleModule_QE_Winter2022" finished-at="2022-07-17T02:08:38 EDT" duration-ms="16">
-    </test> <!-- C:/Users/MD SHAHADUL ISLAM/IdeaProjects/Practice_TDD_WebAutomationFrameworkSingleModule_QE_Winter2022 -->
-  </suite> <!-- All Test Suite -->
+    <test started-at="2022-07-23T22:37:31 EDT" name="Amazon Web Automation" finished-at="2022-07-23T22:37:31 EDT" duration-ms="15">
+    </test> <!-- Amazon Web Automation -->
+  </suite> <!-- Amazon Test Suite -->
 </testng-results>
