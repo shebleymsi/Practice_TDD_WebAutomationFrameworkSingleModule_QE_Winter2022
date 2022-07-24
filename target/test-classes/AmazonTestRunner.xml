@@ -13,11 +13,11 @@
 
     <test name="Amazon Web Automation">
         <classes>
-            <!--            <class name="com.amazon.testPages.HomePageTest.HomePageTest"/>-->
-            <!--            <class name="com.amazon.testPages.HomePageTest.HomePageTest1"/>-->
-            <!--            <class name="com.amazon.testPages.HomePageTest.HomePageTest2"/>-->
-            <class name="com.amazon.testPages.homePageTest.HomePageNewTest"/>
-            <!--            <class name="com.amazon.testPages.RegistrationPageTest.RegistrationPageTest"/>-->
+            <!--            <class name="com.amazon.testPages.homePageTest.HomePageTest"/>-->
+            <!--            <class name="com.amazon.testPages.homePageTest.HomePageTest1"/>-->
+            <!--            <class name="com.amazon.testPages.homePageTest.HomePageTest2"/>-->
+            <class name="com.amazon.testPage.homePageTest.HomePageNewTest"/>
+            <!--            <class name="com.amazon.testPages.registrationPageTest.RegistrationPageTest"/>-->
 
 
         </classes>

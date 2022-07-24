@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="windows"/>
+  <parameter name="osVersion" value="10"/>
+  <parameter name="browserVersion" value="103"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="cloudEnvName" value="browserStack"/>
+  <parameter name="url" value="https://www.amazon.com/"/>
+  <test thread-count="5" name="Amazon Web Automation(failed)" verbose="0">
+    <classes>
+      <class name="com.amazon.testPage.homePageTest.HomePageNewTest">
+        <methods>
+          <include name="generateReport"/>
+          <include name="verifyPurellAdvancedHandSanitizer"/>
+          <include name="extentSetup"/>
+          <include name="tearDownAutomation"/>
+          <include name="setUpAutomation"/>
+          <include name="setUp"/>
+          <include name="afterEachTestMethod"/>
+          <include name="startExtent"/>
+        </methods>
+      </class> <!-- com.amazon.testPage.homePageTest.HomePageNewTest -->
+    </classes>
+  </test> <!-- Amazon Web Automation(failed) -->
+</suite> <!-- Failed suite [Amazon Test Suite] -->

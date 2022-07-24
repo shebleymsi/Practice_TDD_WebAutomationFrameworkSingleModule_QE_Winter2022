@@ -1,7 +1,6 @@
 C:\Users\MD SHAHADUL ISLAM\IdeaProjects\Practice_TDD_WebAutomationFrameworkSingleModule_QE_Winter2022\src\main\java\configuration\utilities\ReadSystemProperties.java
 C:\Users\MD SHAHADUL ISLAM\IdeaProjects\Practice_TDD_WebAutomationFrameworkSingleModule_QE_Winter2022\src\main\java\com\amazon\pages\HomePage1.java
 C:\Users\MD SHAHADUL ISLAM\IdeaProjects\Practice_TDD_WebAutomationFrameworkSingleModule_QE_Winter2022\src\main\java\configuration\databases\ConnectToMongoDB.java
-C:\Users\MD SHAHADUL ISLAM\IdeaProjects\Practice_TDD_WebAutomationFrameworkSingleModule_QE_Winter2022\src\main\java\com\amazon\testPages\homePageTest\HomePageNewTest.java
 C:\Users\MD SHAHADUL ISLAM\IdeaProjects\Practice_TDD_WebAutomationFrameworkSingleModule_QE_Winter2022\src\main\java\configuration\utilities\DataProviderUtils.java
 C:\Users\MD SHAHADUL ISLAM\IdeaProjects\Practice_TDD_WebAutomationFrameworkSingleModule_QE_Winter2022\src\main\java\configuration\utilities\DataReader.java
 C:\Users\MD SHAHADUL ISLAM\IdeaProjects\Practice_TDD_WebAutomationFrameworkSingleModule_QE_Winter2022\src\main\java\com\amazon\pages\RegistrationPage.java
@@ -18,7 +17,6 @@ C:\Users\MD SHAHADUL ISLAM\IdeaProjects\Practice_TDD_WebAutomationFrameworkSingl
 C:\Users\MD SHAHADUL ISLAM\IdeaProjects\Practice_TDD_WebAutomationFrameworkSingleModule_QE_Winter2022\src\main\java\configuration\databases\ConnectToSqlDB.java
 C:\Users\MD SHAHADUL ISLAM\IdeaProjects\Practice_TDD_WebAutomationFrameworkSingleModule_QE_Winter2022\src\main\java\configuration\reporting\ApplicationLog.java
 C:\Users\MD SHAHADUL ISLAM\IdeaProjects\Practice_TDD_WebAutomationFrameworkSingleModule_QE_Winter2022\src\main\java\configuration\reporting\TestLogger.java
-C:\Users\MD SHAHADUL ISLAM\IdeaProjects\Practice_TDD_WebAutomationFrameworkSingleModule_QE_Winter2022\src\main\java\com\amazon\testPages\homePageTest\HomePageTest2.java
 C:\Users\MD SHAHADUL ISLAM\IdeaProjects\Practice_TDD_WebAutomationFrameworkSingleModule_QE_Winter2022\src\main\java\configuration\common\WebTestBase.java
 C:\Users\MD SHAHADUL ISLAM\IdeaProjects\Practice_TDD_WebAutomationFrameworkSingleModule_QE_Winter2022\src\main\java\configuration\utilities\DataDriven.java
 C:\Users\MD SHAHADUL ISLAM\IdeaProjects\Practice_TDD_WebAutomationFrameworkSingleModule_QE_Winter2022\src\main\java\configuration\utilities\ReadExcel.java

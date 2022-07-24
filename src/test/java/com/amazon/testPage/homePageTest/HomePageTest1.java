@@ -1,6 +1,5 @@
 package com.amazon.testPage.homePageTest;
 
-import com.amazon.pages.HomePage;
 import com.amazon.pages.HomePage1;
 import configuration.common.WebTestBase;
 import org.openqa.selenium.By;

@@ -28,6 +28,4 @@ configuration\common\WebTestBase.class
 configuration\utilities\ReadExcel.class
 configuration\common\GlobalReUsableMethods$1.class
 configuration\databases\Student.class
-com\amazon\testPages\homePageTest\HomePageNewTest.class
-com\amazon\testPages\homePageTest\HomePageTest2.class
 configuration\databases\User.class
