@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Amazon Test Suite">
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserStack"/>
     <parameter name="os" value="windows"/>
     <parameter name="osVersion" value="10"/>
@@ -13,11 +13,12 @@
 
     <test name="Amazon Web Automation">
         <classes>
-            <!--            <class name="com.amazon.testPages.homePageTest.HomePageTest"/>-->
-            <!--            <class name="com.amazon.testPages.homePageTest.HomePageTest1"/>-->
-            <!--            <class name="com.amazon.testPages.homePageTest.HomePageTest2"/>-->
-            <class name="com.amazon.testPage.homePageTest.HomePageNewTest"/>
-            <!--            <class name="com.amazon.testPages.registrationPageTest.RegistrationPageTest"/>-->
+
+                             <class name="com.amazon.testPage.homePageTest.HomePageNewTest"/>
+<!--                        <class name="com.amazon.testPage.homePageTest.HomePageTest"/>-->
+<!--                        <class name="com.amazon.testPage.homePageTest.HomePageTest1"/>-->
+<!--                       <class name="com.amazon.testPage.homePageTest.HomePageTest2"/>-->
+<!--                        <class name="com.amazon.testPage.registrationPageTest.RegistrationPageTest"/>-->
 
 
         </classes>

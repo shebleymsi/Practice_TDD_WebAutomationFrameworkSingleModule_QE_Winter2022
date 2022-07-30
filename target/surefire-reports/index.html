@@ -143,15 +143,16 @@
                   <a name="verifyPurellAdvancedHandSanitizer">
                   </a> <!-- verifyPurellAdvancedHandSanitizer -->
                   <span class="method-name">verifyPurellAdvancedHandSanitizer</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//span[contains(text(),&apos;Purell Advanced Hand Sanitizer Refreshing Gel Desi&apos;)])[2]&quot;}
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: unexpected command response
   (Session info: chrome=103.0.5060.134)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
 System info: host: &apos;DESKTOP-U2P560E&apos;, ip: &apos;192.168.0.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5c9525543c1d6d05dbc4fccbd419072e, findElement {using=xpath, value=(//span[contains(text(),&apos;Purell Advanced Hand Sanitizer Refreshing Gel Desi&apos;)])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Users\MDSHAH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:2850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:2850/devtool..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5c9525543c1d6d05dbc4fccbd419072e
+Command: [2d0101a92daa9830abf059386d2dcda2, clickElement {id=052cba51-38f0-4987-9fa1-6467754c3743}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Users\MDSHAH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:9759}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:9759/devtool..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2d0101a92daa9830abf059386d2dcda2)] -&gt; xpath: (//span[contains(text(),&apos;Purell Advanced Hand Sanitizer Refreshing Gel Desi&apos;)])[2]]
+Session ID: 2d0101a92daa9830abf059386d2dcda2
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -159,27 +160,15 @@ Session ID: 5c9525543c1d6d05dbc4fccbd419072e
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy19.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:500)
-	at configuration.common.GlobalReUsableMethods.scrollDownToElement(GlobalReUsableMethods.java:50)
-	at com.amazon.pages.HomePageNew.selectPurellAdvancedHandSanitizer(HomePageNew.java:46)
-	at com.amazon.testPage.homePageTest.HomePageNewTest.verifyPurellAdvancedHandSanitizer(HomePageNewTest.java:24)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at configuration.common.GlobalReUsableMethods.clickOnElement(GlobalReUsableMethods.java:40)
+	at com.amazon.pages.HomePageNew.selectPurellAdvancedHandSanitizer(HomePageNew.java:47)
+	at com.amazon.testPage.homePageTest.HomePageNewTest.verifyPurellAdvancedHandSanitizer(HomePageNewTest.java:25)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 35 stack frames
+... Removed 39 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -261,18 +250,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyPurellAdvancedHandSanitizer')
+data.setCell(0, 1, 'verifySearchValidProduct')
 data.setCell(0, 2, 'com.amazon.testPage.homePageTest.HomePageNewTest')
-data.setCell(0, 3, 56766);
+data.setCell(0, 3, 4838);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifySearchValidProduct')
+data.setCell(1, 1, 'verifyPurellAdvancedHandSanitizer')
 data.setCell(1, 2, 'com.amazon.testPage.homePageTest.HomePageNewTest')
-data.setCell(1, 3, 23049);
+data.setCell(1, 3, 4631);
 window.suiteTableData['Amazon_Test_Suite']= { tableData: data, tableDiv: 'times-div-Amazon_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-Amazon_Test_Suite">
               </div> <!-- times-div-Amazon_Test_Suite -->
             </div> <!-- times-div -->
@@ -300,58 +289,58 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.amazon.testPage.homePageTest.HomePageNewTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">extentSetup(org.testng.TestRunner@2fd954f)</span>
+                <span class="method-name">extentSetup(org.testng.TestRunner@5f5effb0)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">setUpAutomation</span>
-                <span class="method-start">185 ms</span>
+                <span class="method-start">265 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserStack, windows, 10, chrome, 103, https://www.amazon.com/)</span>
-                <span class="method-start">213 ms</span>
+                <span class="method-start">288 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startExtent(public void com.amazon.testPage.homePageTest.HomePageNewTest.verifyPurellAdvancedHandSanitizer() thr...)</span>
-                <span class="method-start">3871 ms</span>
+                <span class="method-start">7963 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyPurellAdvancedHandSanitizer</span>
-                <span class="method-start">3887 ms</span>
+                <span class="method-start">7969 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=verifyPurellAdvancedHandSanitizer status=FAILURE method=HomePageNewTest.verifyPurel...)</span>
-                <span class="method-start">60665 ms</span>
+                <span class="method-start">12625 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownAutomation</span>
-                <span class="method-start">61608 ms</span>
+                <span class="method-start">17549 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(false, browserStack, windows, 10, chrome, 103, https://www.amazon.com/)</span>
-                <span class="method-start">62283 ms</span>
+                <span class="method-start">18445 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">startExtent(public void com.amazon.testPage.homePageTest.HomePageNewTest.verifySearchValidProduct())</span>
-                <span class="method-start">64228 ms</span>
+                <span class="method-name">startExtent(public void com.amazon.testPage.homePageTest.HomePageNewTest.verifySearchValidProduct() throws java....)</span>
+                <span class="method-start">22115 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySearchValidProduct</span>
-                <span class="method-start">64229 ms</span>
+                <span class="method-start">22119 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterEachTestMethod([TestResult name=verifySearchValidProduct status=SUCCESS method=HomePageNewTest.verifySearchValidPro...)</span>
-                <span class="method-start">87279 ms</span>
+                <span class="method-start">26957 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownAutomation</span>
-                <span class="method-start">87341 ms</span>
+                <span class="method-start">27037 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">generateReport</span>
-                <span class="method-start">88060 ms</span>
+                <span class="method-start">27854 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

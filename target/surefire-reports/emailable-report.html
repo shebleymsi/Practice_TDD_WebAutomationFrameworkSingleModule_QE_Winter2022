@@ -9,19 +9,20 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Amazon Test Suite</th></tr>
-<tr><td><a href="#t0">Amazon Web Automation</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">87,835</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Amazon Web Automation</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">29,559</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Amazon Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Amazon Web Automation &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.amazon.testPage.homePageTest.HomePageNewTest</td><td><a href="#m0">verifyPurellAdvancedHandSanitizer</a></td><td rowspan="1">1658638212196</td><td rowspan="1">56766</td></tr><tr><th colspan="4">Amazon Web Automation &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.amazon.testPage.homePageTest.HomePageNewTest</td><td><a href="#m1">verifySearchValidProduct</a></td><td rowspan="1">1658638272538</td><td rowspan="1">23049</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Amazon Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Amazon Web Automation &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.amazon.testPage.homePageTest.HomePageNewTest</td><td><a href="#m0">verifyPurellAdvancedHandSanitizer</a></td><td rowspan="1">1658944592088</td><td rowspan="1">14303</td></tr><tr><th colspan="4">Amazon Web Automation &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.amazon.testPage.homePageTest.HomePageNewTest</td><td><a href="#m1">verifySearchValidProduct</a></td><td rowspan="1">1658944612476</td><td rowspan="1">2929</td></tr></tbody>
 </table>
-<h2>Amazon Web Automation</h2><h3 id="m0">com.amazon.testPage.homePageTest.HomePageNewTest#verifyPurellAdvancedHandSanitizer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//span[contains(text(),&apos;Purell Advanced Hand Sanitizer Refreshing Gel Desi&apos;)])[2]&quot;}
+<h2>Amazon Web Automation</h2><h3 id="m0">com.amazon.testPage.homePageTest.HomePageNewTest#verifyPurellAdvancedHandSanitizer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: unexpected command response
   (Session info: chrome=103.0.5060.134)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
 System info: host: &apos;DESKTOP-U2P560E&apos;, ip: &apos;192.168.0.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5c9525543c1d6d05dbc4fccbd419072e, findElement {using=xpath, value=(//span[contains(text(),&apos;Purell Advanced Hand Sanitizer Refreshing Gel Desi&apos;)])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Users\MDSHAH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:2850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:2850/devtool..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5c9525543c1d6d05dbc4fccbd419072e
+Command: [f076eef7d8e8e41469d2b92129a760af, clickElement {id=f5608382-4ae2-4ff5-852d-03659ceb9242}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Users\MDSHAH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5459}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:5459/devtool..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f076eef7d8e8e41469d2b92129a760af)] -&gt; xpath: //input[@name=&apos;proceedToRetailCheckout&apos;]]
+Session ID: f076eef7d8e8e41469d2b92129a760af
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -29,27 +30,15 @@ Session ID: 5c9525543c1d6d05dbc4fccbd419072e
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy19.getWrappedElement(Unknown Source)
-	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:500)
-	at configuration.common.GlobalReUsableMethods.scrollDownToElement(GlobalReUsableMethods.java:50)
-	at com.amazon.pages.HomePageNew.selectPurellAdvancedHandSanitizer(HomePageNew.java:46)
-	at com.amazon.testPage.homePageTest.HomePageNewTest.verifyPurellAdvancedHandSanitizer(HomePageNewTest.java:24)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at configuration.common.GlobalReUsableMethods.clickOnElement(GlobalReUsableMethods.java:40)
+	at com.amazon.pages.HomePageNew.selectPurellAdvancedHandSanitizer(HomePageNew.java:53)
+	at com.amazon.testPage.homePageTest.HomePageNewTest.verifyPurellAdvancedHandSanitizer(HomePageNewTest.java:25)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">com.amazon.testPage.homePageTest.HomePageNewTest#verifySearchValidProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

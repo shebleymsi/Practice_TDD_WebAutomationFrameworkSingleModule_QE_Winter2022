@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Amazon Test Suite">
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserStack"/>
     <parameter name="os" value="windows"/>
     <parameter name="osVersion" value="10"/>

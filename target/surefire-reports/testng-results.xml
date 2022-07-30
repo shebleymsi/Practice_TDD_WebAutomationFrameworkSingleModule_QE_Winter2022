@@ -20,16 +20,16 @@
       <![CDATA[Url : https://www.amazon.com/]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-07-24T00:50:08 EDT" name="Amazon Test Suite" finished-at="2022-07-24T00:51:36 EDT" duration-ms="87835">
+  <suite started-at="2022-07-27T13:56:26 EDT" name="Amazon Test Suite" finished-at="2022-07-27T13:56:56 EDT" duration-ms="29559">
     <groups>
     </groups>
-    <test started-at="2022-07-24T00:50:08 EDT" name="Amazon Web Automation" finished-at="2022-07-24T00:51:36 EDT" duration-ms="87835">
+    <test started-at="2022-07-27T13:56:26 EDT" name="Amazon Web Automation" finished-at="2022-07-27T13:56:56 EDT" duration-ms="29559">
       <class name="com.amazon.testPage.homePageTest.HomePageNewTest">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-24T00:50:08 EDT" name="extentSetup" finished-at="2022-07-24T00:50:08 EDT" duration-ms="185" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-27T13:56:26 EDT" name="extentSetup" finished-at="2022-07-27T13:56:26 EDT" duration-ms="281" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2fd954f]]>
+                <![CDATA[org.testng.TestRunner@bc6288b]]>
               </value>
             </param>
           </params>
@@ -39,11 +39,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUpAutomation()[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-24T00:50:08 EDT" name="setUpAutomation" finished-at="2022-07-24T00:50:08 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUpAutomation()[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-27T13:56:26 EDT" name="setUpAutomation" finished-at="2022-07-27T13:56:26 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpAutomation -->
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-24T00:50:08 EDT" name="setUp" finished-at="2022-07-24T00:50:12 EDT" duration-ms="3657" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-27T13:56:26 EDT" name="setUp" finished-at="2022-07-27T13:56:32 EDT" duration-ms="5443" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,7 +90,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-24T00:50:12 EDT" name="startExtent" finished-at="2022-07-24T00:50:12 EDT" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-27T13:56:32 EDT" name="startExtent" finished-at="2022-07-27T13:56:32 EDT" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,29 +101,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="verifyPurellAdvancedHandSanitizer()[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-24T00:50:12 EDT" name="verifyPurellAdvancedHandSanitizer" finished-at="2022-07-24T00:51:08 EDT" duration-ms="56766" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="verifyPurellAdvancedHandSanitizer()[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-27T13:56:32 EDT" name="verifyPurellAdvancedHandSanitizer" finished-at="2022-07-27T13:56:46 EDT" duration-ms="14303" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[contains(text(),'Purell Advanced Hand Sanitizer Refreshing Gel Desi')])[2]"}
+              <![CDATA[unknown error: cannot determine loading status
+from unknown error: unexpected command response
   (Session info: chrome=103.0.5060.134)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-U2P560E', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5c9525543c1d6d05dbc4fccbd419072e, findElement {using=xpath, value=(//span[contains(text(),'Purell Advanced Hand Sanitizer Refreshing Gel Desi')])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Users\MDSHAH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:2850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:2850/devtool..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5c9525543c1d6d05dbc4fccbd419072e]]>
+Command: [f076eef7d8e8e41469d2b92129a760af, clickElement {id=f5608382-4ae2-4ff5-852d-03659ceb9242}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Users\MDSHAH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5459}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:5459/devtool..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f076eef7d8e8e41469d2b92129a760af)] -> xpath: //input[@name='proceedToRetailCheckout']]
+Session ID: f076eef7d8e8e41469d2b92129a760af]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[contains(text(),'Purell Advanced Hand Sanitizer Refreshing Gel Desi')])[2]"}
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: unexpected command response
   (Session info: chrome=103.0.5060.134)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-U2P560E', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5c9525543c1d6d05dbc4fccbd419072e, findElement {using=xpath, value=(//span[contains(text(),'Purell Advanced Hand Sanitizer Refreshing Gel Desi')])[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Users\MDSHAH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:2850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:2850/devtool..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5c9525543c1d6d05dbc4fccbd419072e
+Command: [f076eef7d8e8e41469d2b92129a760af, clickElement {id=f5608382-4ae2-4ff5-852d-03659ceb9242}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Users\MDSHAH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:5459}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:5459/devtool..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f076eef7d8e8e41469d2b92129a760af)] -> xpath: //input[@name='proceedToRetailCheckout']]
+Session ID: f076eef7d8e8e41469d2b92129a760af
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -135,25 +137,17 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy19.getWrappedElement(Unknown Source)
-at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
-at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
-at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
-at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
-at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:500)
-at configuration.common.GlobalReUsableMethods.scrollDownToElement(GlobalReUsableMethods.java:50)
-at com.amazon.pages.HomePageNew.selectPurellAdvancedHandSanitizer(HomePageNew.java:46)
-at com.amazon.testPage.homePageTest.HomePageNewTest.verifyPurellAdvancedHandSanitizer(HomePageNewTest.java:24)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy19.click(Unknown Source)
+at configuration.common.GlobalReUsableMethods.clickOnElement(GlobalReUsableMethods.java:40)
+at com.amazon.pages.HomePageNew.selectPurellAdvancedHandSanitizer(HomePageNew.java:53)
+at com.amazon.testPage.homePageTest.HomePageNewTest.verifyPurellAdvancedHandSanitizer(HomePageNewTest.java:25)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -188,11 +182,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPurellAdvancedHandSanitizer -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-24T00:51:08 EDT" name="afterEachTestMethod" finished-at="2022-07-24T00:51:09 EDT" duration-ms="943" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-27T13:56:46 EDT" name="afterEachTestMethod" finished-at="2022-07-27T13:56:47 EDT" duration-ms="878" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -206,11 +200,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
             </line>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="tearDownAutomation()[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-24T00:51:09 EDT" name="tearDownAutomation" finished-at="2022-07-24T00:51:10 EDT" duration-ms="674" status="PASS">
+        <test-method is-config="true" signature="tearDownAutomation()[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-27T13:56:47 EDT" name="tearDownAutomation" finished-at="2022-07-27T13:56:47 EDT" duration-ms="696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAutomation -->
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-24T00:51:10 EDT" name="setUp" finished-at="2022-07-24T00:51:12 EDT" duration-ms="1945" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-27T13:56:47 EDT" name="setUp" finished-at="2022-07-27T13:56:52 EDT" duration-ms="4492" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -257,22 +251,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-24T00:51:12 EDT" name="startExtent" finished-at="2022-07-24T00:51:12 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-27T13:56:52 EDT" name="startExtent" finished-at="2022-07-27T13:56:52 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.amazon.testPage.homePageTest.HomePageNewTest.verifySearchValidProduct()]]>
+                <![CDATA[public void com.amazon.testPage.homePageTest.HomePageNewTest.verifySearchValidProduct() throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="verifySearchValidProduct()[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-24T00:51:12 EDT" name="verifySearchValidProduct" finished-at="2022-07-24T00:51:35 EDT" duration-ms="23049" status="PASS">
+        <test-method signature="verifySearchValidProduct()[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-27T13:56:52 EDT" name="verifySearchValidProduct" finished-at="2022-07-27T13:56:55 EDT" duration-ms="2929" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchValidProduct -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-24T00:51:35 EDT" name="afterEachTestMethod" finished-at="2022-07-24T00:51:35 EDT" duration-ms="62" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-27T13:56:55 EDT" name="afterEachTestMethod" finished-at="2022-07-27T13:56:55 EDT" duration-ms="35" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -283,11 +277,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="tearDownAutomation()[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-24T00:51:35 EDT" name="tearDownAutomation" finished-at="2022-07-24T00:51:36 EDT" duration-ms="679" status="PASS">
+        <test-method is-config="true" signature="tearDownAutomation()[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-27T13:56:55 EDT" name="tearDownAutomation" finished-at="2022-07-27T13:56:56 EDT" duration-ms="732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownAutomation -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-24T00:51:36 EDT" name="generateReport" finished-at="2022-07-24T00:51:36 EDT" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.amazon.testPage.homePageTest.HomePageNewTest@48075da3]" started-at="2022-07-27T13:56:56 EDT" name="generateReport" finished-at="2022-07-27T13:56:56 EDT" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->

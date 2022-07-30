@@ -22,6 +22,7 @@ import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.*;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -39,8 +40,6 @@ import java.util.Properties;
 public class WebTestBase {
     // Create Driver
     public static WebDriver driver;
-
-
     // Read Properties
     static Properties readProperty = ReadPropertiesFrom.loadProperties("src/main/resources/Config.properties");
     // String getBrowserStackUserName = readProperty.getProperty("BROWSERSTACK_USERNAME");
@@ -54,10 +53,10 @@ public class WebTestBase {
     // public static final String BROWSERSTACK_ACCESS_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");
     // public static final String BROWSERSTACK_URL = "https://" + BROWSERSTACK_USERNAME + ":" + BROWSERSTACK_ACCESS_KEY + "@hub-cloud.browserstack.com/wd/hub";
     public static final String BROWSERSTACK_URL = "https://" + readProperty.getProperty("BROWSERSTACK_USERNAME") + ":" + readProperty.getProperty("BROWSERSTACK_ACCESS_KEY") + "@hub-cloud.browserstack.com/wd/hub";
-
-    public static final String SAUCELABS_USERNAME = "shebleymsi";
-    public static final String SAUCELABS_ACCESS_KEY = "2b6aeba3-cc7d-42de-8442-a0948eb1f261";
-    public static final String SAUCELABS_URL = "https://" + SAUCELABS_USERNAME + ":" + SAUCELABS_ACCESS_KEY + "@ondemand.us-west-1.saucelabs.com:443/wd/hub";
+    // public static final String SAUCELABS_USERNAME = "shebleymsi";
+    //  public static final String SAUCELABS_ACCESS_KEY = "2b6aeba3-cc7d-42de-8442-a0948eb1f261";
+    //  public static final String SAUCELABS_URL = "https://" + SAUCELABS_USERNAME + ":" + SAUCELABS_ACCESS_KEY + "@ondemand.us-west-1.saucelabs.com:443/wd/hub";
+    public static final String SAUCELABS_URL = "https://" + readProperty.getProperty("SAUCELABS_USERNAME") + ":" + readProperty.getProperty("SAUCELABS_ACCESS_KEY") + "@ondemand.us-west-1.saucelabs.com:443/wd/hub";
     //URL url = new URL("https://xodale3453:*****ca08@ondemand.us-west-1.saucelabs.com:443/wd/hub");
 
     /**
